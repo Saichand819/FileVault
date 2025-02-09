@@ -1,0 +1,14 @@
+.nav-bar{
+    background-color: #73a3f0;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.body-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center; 
+    align-items: center;
+    padding-top: 20px;
+    width: 100%;
+}

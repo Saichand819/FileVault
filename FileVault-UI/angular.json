@@ -58,6 +58,10 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "file-vault-ui:build",
+            "proxyConfig": "proxy-conf.json"
+          },
           "configurations": {
             "production": {
               "browserTarget": "FileVault-UI:build:production"

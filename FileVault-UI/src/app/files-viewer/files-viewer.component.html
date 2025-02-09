@@ -1,0 +1,11 @@
+<div style="width: 80vw;padding: 20px 0px;">
+    <h2>Your Downloads</h2>
+    <uL>
+        <ng-container *ngFor="let filename of filesList">
+           <li> 
+                <a href="/fileVault/download?fileName={{filename}}"> {{filename}} </a>
+           </li>
+        </ng-container>
+    </uL>
+    <p *ngIf="filesList.length ===0 ">No Files</p>
+</div>

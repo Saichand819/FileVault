@@ -1,4 +1,4 @@
-package com.example.file_vault_app;
+package com.example.file_vault_service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

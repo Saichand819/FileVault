@@ -1,0 +1,5 @@
+<div *ngIf="showNotification" [ngClass]="getStyleClass()" class="notificationContainer">
+    <span>{{notifcationMessage}}</span>
+
+     <mat-icon style="right: 2px;position: absolute; top: 9px;cursor: pointer;" (click)="closeNotification()">close</mat-icon>
+</div>
